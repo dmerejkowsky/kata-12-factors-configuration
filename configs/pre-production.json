@@ -1,0 +1,13 @@
+{
+    "database": {
+        "host": "database.preprod.example.org",
+        "port": 5432,
+        "dbName": "app",
+        "user": "example",
+        "password": "<redacted>"
+    },
+    "mailer": {
+        "url": "https://mailer.preprod.example.org",
+        "token": "<redacted>"
+    }
+}

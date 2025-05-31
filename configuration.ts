@@ -15,5 +15,6 @@ export type Configuration = {
 
 export enum Environment {
     Local = "local",
+    PreProduction = "pre-production",
     Production = "production"
 }
