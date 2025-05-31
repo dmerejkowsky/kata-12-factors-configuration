@@ -4,7 +4,8 @@
         "port": 5432,
         "dbName": "app",
         "user": "example",
-        "password": "<redacted>"
+        "password": "<redacted>",
+        "useTls": true
     },
     "mailer": {
         "url": "https://mailer.example.org",

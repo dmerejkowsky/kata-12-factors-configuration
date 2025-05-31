@@ -5,6 +5,7 @@ export type Configuration = {
         user: string,
         password: string,
         port?: number,
+        useTls : boolean,
     }
     mailer: {
         url: string,

@@ -4,7 +4,8 @@
         "port": 5432,
         "dbName": "app",
         "user": "local",
-        "password": "p4ssw0rd"
+        "password": "p4ssw0rd",
+        "useTls": false
     },
     "mailer": {
         "url": "http://localhost:8080/mailer/api",
