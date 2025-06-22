@@ -29,7 +29,7 @@ Connecting to mailer API at:  http://localhost:8080/mailer/api
 - Introduce a pre-production environment in addition to the production env
 - Encrypt the password databse and the secret token for the mailer
 
-Relect on how big this changes would be in the state of the current code.
+Reflect on how big this changes would be in the state of the current code.
 
 ## Part 2 : configuration as environment variables
 
@@ -43,8 +43,9 @@ Go read the 12 Factor App documentation, especially the part about configuration
 
 Then refactor the code, getting rid of the 'configuration.ts' module completly.
 
+Use a tool like `direnv` to store local configuration.
 
 Then, try and apply the changes listed in part 1.
 
-Finally, try and run the code using the 'local' database and the "pre-production" mailer API.
+Finally, try and run the code using the "local" database and the "pre-production" mailer API.
 
